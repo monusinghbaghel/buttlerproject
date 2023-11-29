@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amazon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo nav-link">
+                        <a class="d-flex align-items-center" href="https://www.amazon.in/ref=nav_logo"><img
+                                src="assets/images/amazon.png">.in</a>
+                    </div>
+                    <div class="location">
+                        <a href="#" class="d-flex align-items-center">
+                            <img src="assets/images/location.png" />
+                            <div>
+                                <span>Delivering to Indore 452001</span>
+                                <div class="fw-bold d-block">Update location</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <form class="form-first">
+                    <div class="d-flex align-items-center">
+                        <select class="all-categories">
+                            <option value="all">All</option>
+                            <option value="all-categories">All Categories</option>
+                            <option value="alexa-skills">Alexa Skills</option>
+                            <option value="amazon-devices">Amazon Devices</option>
+                            <option value="amazon-fashion">Amazon Fashion</option>
+                            <option value="amazon-pharmacy">Amazon Pharmacy</option>
+                            <option value="appliances">Appliances</option>
+                            <option value="Apps">Apps & Games</option>
+                            <option value="audible">Audible Audiobooks</option>
+                            <option value="body">Baby</option>
+                            <option value="beauty">Beauty</option>
+                            <option value="motorbike">Car & Motorbike</option>
+                            <option value="books">Books</option>
+                            <option value="clothing">Clothing & Accessories</option>
+                            <option value="collectibles">Collectibles</option>
+                            <option value="computers">Computers & Accessories</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="furniture">Furniture</option>
+                            <option value="garden">Garden & Outdoors</option>
+                            <option value="gift">Gift Cards</option>
+                            <option value="grocery">Grocery & Gourmet Foods</option>
+                            <option value="health">Health & Personal Care</option>
+                            <option value="home-kitchen">Home & Kitchen</option>
+                            <option value="industrial">Industrial & Scientific</option>
+                            <option value="jewellery">Jewellery</option>
+                            <option value="kindle">Kindle Store</option>
+                        </select>
+
+                        <input class="search" type="search" name="search" placeholder="Search Amazon in">
+
+                        <button class="search-icon" type="submit"><img src="assets/images/search-icon.png" /></button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-auto">
+                <div class="d-flex align-items-center">
+                    <div class="country-language dropdown-toggle  nav-link">
+                        <a class="fw-bold toggle-text" href="#">
+                            <img src="assets/images/india-figure.png" />EN
+                        </a>
+                        <form class="form-language dropdown-content">
+                            <div>
+                                <label><input type="radio" name="english">English-EN</label>
+                            </div>
+                            <hr />
+                            <div>
+
+                                <label><input type="radio" name="english">हिन्दी-HI</label>
+                            </div>
+                            <div>
+
+                                <label><input type="radio" name="english">தமிழ்-TA</label>
+                            </div>
+                            <div>
+
+                                <label><input type="radio" name="english">తెలుగు-TE</label>
+                            </div>
+                            <div>
+
+                                <label><input type="radio" name="english">ಕನ್ನಡ-KN</label>
+                            </div>
+                            <div>
+
+                                <label><input type="radio" name="english">मराठी-MR</label>
+                            </div>
+                            <div>
+
+                                <label><input type="radio" name="english">मराठी-MR</label>
+                            </div>
+                            <div class="learn">
+                                <a href="#">Learn more</a>
+                            </div>
+                            <div class="d-flex">
+                                <img style="margin-right: 5px;" src="assets/images/india-figure.png" />
+                                <span>You are shoping on Amazon.in</span>
+                            </div>
+                            <div class="learn">
+                                <a href="#">change country/region.</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="account-lists nav-link d-flex ">
+                        <div>
+                            <span>Hello, sign in</span><br>
+                            <div class="fw-bold">Account & Lists</div>
+                        </div>
+                        <!-- <img src="assets/images/arrow.svg"/> -->
+
+                    </div>
+                    <div class="nav-link">
+                        <span>Returns</span><br>
+                        <div class="fw-bold">& Orders</div>
+                    </div>
+                    <div class="nav-link cart">
+                        <div class="fw-bold"><img src="assets/images/cart.png" />Cart</div>
+                        <strong>0</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <header class="main-header">
+
+        <div class="nav-bar">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="nav-left nav-bar-link navbar">
+                        <a onclick="toggleNavbar()" href="#">
+                            <i><img src="assets/images/bars.png" /></i>
+                            <strong>All</strong>
+                        </a>
+                    </div>
+                    <div class="nav-fill">
+                        <ul class="d-flex menu">
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav">Amazon
+                                    miniTV</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3">Sell</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers">Best
+                                    Sellers</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank" href="https://www.amazon.in/deals?ref_=nav_cs_gb">Today's Deals</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles">Mobiles</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help">Customer
+                                    Service</a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics">
+                                    Electronics </a>
+                            </li>
+                            <li class="nav-bar-link">
+                                <a target="_blank"
+                                    href="https://www.amazon.in/gp/new-releases/?ref_=nav_cs_newreleases">New
+                                    Releases</a>
+                            </li>
+                            <li class="nav-bar-link dropdown-toggle">
+                                <a class="toggle-text" target="_blank"
+                                    href="https://www.amazon.in/prime?ref_=nav_cs_primelink_nonmember">Prime</a>
+                                <div class="dropdown-content">
+                                    <img
+                                        src="assets/images/IN-Prime-PIN-TryPrime-MultiBen-Apr18-400x400._CB612889281_.jpg" />
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="nav-link">
+                        <img src="assets/images/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myNavbar" class="navbar">
+            <div class="menu-content">
+                <button class="close-menu" onclick="toggleNavbar()"><img src="assets/images/close-icon.png" /></button>
+                <div class="menu-customer-profile d-flex">
+                    <div>
+                        <img src="assets/images/profile.png" />
+                    </div>
+                    <strong>Hello, sign in</strong>
+                </div>
+                <div class="menu-customer">
+                    <h3>Trending </h3>
+                    <ul>
+                        <li>
+                            <a href="#">Best Sellers</a>
+                        </li>
+                        <li>
+                            <a href="#">New Releases</a>
+                        </li>
+                        <li>
+                            <a href="#">Movers and Shakers</a>
+                        </li>
+                    </ul>
+                    <hr />
+                    <h3>Digital Content And Devices</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Amazon miniTV- FREE entertainment</a>
+                        </li>
+                        <li>
+                            <a href="#">Echo & Alexa</a>
+                        </li>
+                        <li>
+                            <a href="#">Fire TV</a>
+                        </li>
+                        <li>
+                            <a href="#">Kindle E-Readers & eBooks</a>
+                        </li>
+                        <li>
+                            <a href="#">Audible Audiobooks</a>
+                        </li>
+                        <li>
+                            <a href="#">Amazon Prime Video</a>
+                        </li>
+                        <li>
+                            <a href="#">Amazon Prime Music</a>
+                        </li>
+                    </ul>
+                    <hr />
+                    <h3>Shop By Category</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Mobiles, Computers</a>
+                        </li>
+                        <li>
+                            <a href="#">TV, Appliances, Electronics</a>
+                        </li>
+                        <li>
+                            <a href="#">Men's Fashion</a>
+                        </li>
+                        <li>
+                            <a href="#">Women's Fashion</a>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#">Home, Kitchen, Pets</a>
+                        </li>
+                        <li>
+                            <a href="#">Beauty, Health, Grocery</a>
+                        </li>
+                        <li>
+                            <a href="#">Sports, Fitness, Bags, Luggage</a>
+                        </li>
+                        <li>
+                            <a href="#">Toys, Baby Products, Kids' Fashion</a>
+                        </li>
+                        <li>
+                            <a href="#">Car, Motorbike, Industrial</a>
+                        </li>
+                        <li>
+                            <a href="#">Books</a>
+                        </li>
+                        <li>
+                            <a href="#">Movies, Music & Video Games</a>
+                        </li>
+
+                        <li>
+                            <a href="#">See All</a>
+                        </li>
+                    </ul>
+
+                    <hr />
+                    <h3>Programs & Features</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Amazon Pay</a>
+                        </li>
+                        <li>
+                            <a href="#">Gift Cards & Mobile Recharges</a>
+                        </li>
+                        <li>
+                            <a href="#">Amazon Launchpad</a>
+                        </li>
+                        <li>
+                            <a href="#">Handloom and Handicrafts</a>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#">Flight Tickets</a>
+                        </li>
+                        <li>
+                            <a href="#">Buy more, Save more</a>
+                        </li>
+                        <li>
+                            <a href="#">Clearance store</a>
+                        </li>
+                        <li>
+                            <a href="#">See All</a>
+                        </li>
+                    </ul>
+                    <h3>Help & Settings</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Your Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Couster Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <section class="banner">
+        <div class="owl-carousel owl-theme" id="banner-start">
+            <div class="item">
+                <img src="assets/images/banner1.jpg" />
+            </div>
+            <div class="item">
+                <img src="assets/images/banner2.jpg" />
+            </div>
+            <div class="item">
+                <img src="assets/images/banner3.jpg" />
+            </div>
+            <div class="item">
+                <img src="assets/images/banner4.jpg" />
+            </div>
+            <div class="item">
+                <img src="assets/images/banner5.jpg" />
+            </div>
+            <div class="item">
+                <img src="assets/images/banner6.jpg" />
+            </div>
+        </div>
+        <div class="banner-product">
+            <div class="container">
+                <div class="row-column">
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Deals inspired by your recent history</h4>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img width="133" src="assets/images/laptop1.jpg" />
+                                    <div class="d-flex align-items-center">
+                                        <a class="discount" href="#">39% off</a>
+                                        <div><span class="fw-bold">Deal of the Day</span></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img width="133" src="assets/images/asus1.jpg" />
+                                    <div class="d-flex align-items-center">
+                                        <a class="discount" href="#">31% off</a>
+                                        <div><span class="fw-bold">Deal of the Day</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img width="133" src="assets/images/acer.jpg" />
+                                    <div class="d-flex align-items-center">
+                                        <a class="discount" href="#">37% off</a>
+                                        <div><span class="fw-bold">Deal of the Day</span></div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img width="133" src="assets/images/asus2.jpg" />
+                                    <div class="d-flex align-items-center">
+                                        <a class="discount" href="#">25% off</a>
+                                        <div><span class="fw-bold">Deal of the Day</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                all deals</a>
+                        </div>
+                    </div>
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Up to 75% off |<br> Headphones</h4>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100" src="assets/images/headphone1.jpg" />
+                                    <small>Up to 75% off | boAt</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100" src="assets/images/headphone2.jpg" />
+                                    <small>Up to 75% off | boAt</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100" src="assets/images/headphone1.jpg" />
+                                    <small>Up to 75% off | boAt</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100" src="assets/images/headphone2.jpg" />
+                                    <small>Up to 75% off |<br> Zebronics</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                all offers</a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Up to 60% off | Styles for men
+                            </h4>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100" src="assets/images/clothing.jpg" />
+                                    <small>Clothing</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="assets/images/MF-2-186-116._SY116_CB636110853_.jpg" />
+                                    <small>Footwear</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="assets/images/MF-3-186-116._SY116_CB636110853_.jpg" />
+                                    <small>Watches</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="assets/images/MF-4-186-116._SY116_CB636110853_.jpg" />
+                                    <small>Bags & wallets</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                all offers</a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25">
+                        <div class="sign">
+                            <h4>Sign in for your best experience
+                            </h4>
+                            <button class="sign-btn">Sign in securely</button>
+                        </div>
+                        <div class="acer">
+                            <img src="assets/images/acer-sign1.jpg" />
+                        </div>
+
+                    </div>
+                    <div class="column col-25 mt-20">
+                        <div class="laptop">
+                            <h4>Revamp your home in style </h4>
+
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg" />
+                                    <small>Bedsheets, curtains & more</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg" />
+                                    <small>Home decoration</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg" />
+                                    <small>Home storage</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg" />
+                                    <small>Lighting solutions</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">Explore
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25 mt-20">
+                        <div class="laptop">
+                            <h4>Appliances for your home | Up to 55% off</h4>
+
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" />
+                                    <small>Air conditioners</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" />
+                                    <small>Refrigerators</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" />
+                                    <small>Microwaves</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" />
+                                    <small>Washing machines</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                more
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25 mt-20">
+                        <div class="laptop">
+                            <h4>Appliances for your home | Up to 55% off</h4>
+
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" />
+                                    <small>Air conditioners</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" />
+                                    <small>Refrigerators</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" />
+                                    <small>Microwaves</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" />
+                                    <small>Washing machines</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                more
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25 mt-20">
+                        <div class="laptop">
+                            <h4>Up to 65% off | Amazon Brands & more</h4>
+
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_4._SY116_CB573066784_.jpg" />
+                                    <small>Starting ₹299 | Kitchen tools</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_2._SY116_CB573066784_.jpg" />
+                                    <small>Starting ₹279 | Storage containers</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_3._SY116_CB573066784_.jpg" />
+                                    <small>Up to 60% off | Cookwares</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_1._SY116_CB573066784_.jpg" />
+                                    <small>Starting ₹139 | Waterbottles</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="today">
+            <div class="container">
+                <div class="today-deals">
+                    <div class="d-flex align-items-center">
+                        <h2>Today’s Deals</h2>
+                        <a href="#">See all deals</a>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="today-deals">
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="images">
+                                <img src="https://m.media-amazon.com/images/I/41qxorrttkL._AC_SY200_.jpg" />
+                            </div>
+                            <button class="discount">Up to 25% off</button>
+                            <span><a href="#">Deal of the Day</a></span>
+                            <div>
+                                <small>Great Deals on Health and Sports Sup…</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car-accessories">
+            <div class="container">
+                <div class="today-deals">
+                    <div class="d-flex align-items-center">
+                        <h2>Up to 60% off | Car & bike accessories & more</h2>
+                        <a href="#">See all deals</a>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="car-accessories">
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61eEetcCb9L._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/51BXMsxaVoL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/819Gt9Act8L._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/71b7UbPX72L._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81icg54oMsL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61OeOSrwacL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61ge72aiPiL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61zxhscfJxL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61HWZntOkzL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/71fNYZBh0HL._AC_SY200_.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-shirt">
+            <div class="container">
+                <div class="today-deals">
+                    <div class="d-flex align-items-center">
+                        <h2>Up to 60% off | Car & bike accessories & more</h2>
+                        <a href="#">See all deals</a>
+                    </div>
+                    <div class="owl-carousel owl-theme" id="t-shirt">
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/61-tZ+9eIML._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81SdoHOe3TL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/71x8NlH-bYL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81KMXiW7bzL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/715TeteH0mL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81UwHVtkvYL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81mp-qnjZoL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81ex9G4J14L._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/81Hh5Z5J-hL._AC_SY200_.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="https://m.media-amazon.com/images/I/9130af7IsaL._AC_SY200_.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shoping">
+            <div class="container">
+                <div class="row-column">
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Keep shopping for</h4>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/61dj3gsUI7L._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>AMERICAN CREW M…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹699.00</h2>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/61dj3gsUI7L._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>AMERICAN CREW M…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹699.00</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/61dj3gsUI7L._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>AMERICAN CREW M…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹699.00</h2>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/61dj3gsUI7L._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>AMERICAN CREW M…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹797.00</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                all deals</a>
+                        </div>
+                    </div>
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Under ₹499 | Pocket-friendly fashion</h4>
+
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg" />
+                                    <small>Bedsheets, curtains & more</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg" />
+                                    <small>Home decoration</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between headphone">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg" />
+                                    <small>Home storage</small>
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg" />
+                                    <small>Lighting solutions</small>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">Explore
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Bestsellers in Women's Indian Clothing
+                            </h4>
+
+                            <div class="d-flex justify-content-between women-cloth">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://m.media-amazon.com/images/I/61oXoXM4LDL._AC_SY170_.jpg" />
+
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://m.media-amazon.com/images/I/51EP887WiRL._AC_SY170_.jpg" />
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://m.media-amazon.com/images/I/51dZ19miAbL._AC_SY170_.jpg" />
+
+                                </div>
+                                <div class="box">
+                                    <img width="133" height="100"
+                                        src="https://m.media-amazon.com/images/I/71VqWsems4L._AC_SY170_.jpg" />
+
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">Explore
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="column col-25">
+                        <div class="laptop">
+                            <h4>Deals inspired by your recent history</h4>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/71fgHQy31ZL._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>Acer Aspire 3 Intel C…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹44,990.00</h2>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/61xzutxSl8L._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>Acer Aspire 5 Gamin…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹56,434.00</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-12">
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/71yjoXu2ZAL._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>Acer Aspire 3 Intel C…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹44,990.00</h2>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="https://m.media-amazon.com/images/I/714HajEtOIL._AC_SY95_.jpg" />
+                                    <div>
+                                        <span>Acer Aspire 5 Gamin…</span>
+                                    </div>
+                                    <div>
+                                        <h2>₹48,890.00</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="deals"
+                                href="https://www.amazon.in/events/deals/?_encoding=UTF8&ref_=deals_m1_t1_see_more&pd_rd_w=o0AdS&content-id=amzn1.sym.f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_p=f15e3816-94dc-43e6-bf51-c06c09f7504d&pf_rd_r=QE8XMH58VQD75K5SMV4B&pd_rd_wg=FH8to&pd_rd_r=844eb8ad-66d1-41cf-8cd4-c48047a7c917">See
+                                all deals</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function toggleNavbar() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " open-menu";
+            } else {
+                x.className = "navbar";
+            }
+        }
+
+        $(document).ready(function () {
+            $('#banner-start').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    800: {
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $('#today-deals').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    800: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 5
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $('#car-accessories').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    800: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 5
+                    }
+                }
+            });
+        });
+        $(document).ready(function () {
+            $('#t-shirt').owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    800: {
+                        items: 5
+                    },
+                    1200: {
+                        items: 8
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
